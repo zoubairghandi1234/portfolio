@@ -27,7 +27,7 @@ body{
 
 li , a ,button{
     text-decoration: none;
-    margin: 15px;
+    margin: 5px;
     display: inline-block;
     color: rgb(111, 111, 111);
   
@@ -60,15 +60,16 @@ nav ul{
    list-style-type: none;
    display: flex;
    flex-wrap: wrap;
+   margin-right: 42px;
 }
 
 nav input{
-    margin-left: 30px;
+    
     background-color: rgb(68, 68, 68);
     border: none;
-    padding: 9px 25px;
+    padding: 2px 24px;
     cursor: pointer;
-    border-radius: 50px;
+    border-radius: 30px;
     transition: all 0.3s ease 0s;
 }
 nav input:hover{
@@ -76,7 +77,10 @@ nav input:hover{
     background-color: #007d9c;
 }
 
-
+.lista{
+    display: flex;
+    flex-direction: row;
+}
 
 
 
@@ -90,6 +94,7 @@ main{
     width: 80%;
     height: 100%;
     flex-wrap: wrap;
+    border-bottom: 1px solid white;
     
     
 }
@@ -108,5 +113,13 @@ main{
     height: 300px;
     
     
+}
+.social{
+    display: flex;
+    
+    
+}
+.social i{
+    margin: 20px;
 }
 
