@@ -74,7 +74,7 @@ nav input{
 }
 nav input:hover{
     color: rgba(0, 136, 169, 8);
-    background-color: #007d9c;
+    background-color: #bd7106;
 }
 
 .lista{
@@ -126,7 +126,39 @@ main{
 .social i{
     font-size: 20px;
 }
-@media only screen and (max-width: 716px) {
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    height: 100px;
+}
+footer button{
+    
+    width: 120px;
+    height: 30px;
+    background-color: rgb(68, 68, 68);
+    border: none;
+    padding: 2px 24px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: black;
+    transition: all 0.3s ease 0s;
+
+}
+footer button:hover{
+    color: rgba(0, 136, 169, 8);
+    background-color: #bd7106;
+    color: white;
+}
+
+
+
+/* respensibale */
+@media only screen and (max-width: 725px) {
     .lista{
         display: flex;
         flex-direction: column;
